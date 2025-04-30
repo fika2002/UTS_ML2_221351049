@@ -26,7 +26,7 @@ source_city = st.selectbox("Kota Asal", ["Delhi", "Mumbai", "Bangalore", "Kolkat
 destination_city = st.selectbox("Kota Tujuan", ["Delhi", "Mumbai", "Bangalore", "Kolkata", "Hyderabad"])
 departure_time = st.selectbox("Waktu Keberangkatan", ["Pagi", "Siang", "Sore", "Malam"])
 arrival_time = st.selectbox("Waktu Kedatangan", ["Pagi", "Siang", "Sore", "Malam"])
-duration = st.number_input("Durasi Penerbangan (menit)", min_value=30, max_value=1000, step=10)
+duration = st.number_input("Durasi Penerbangan (menit)", min_value=60, max_value=1000, step=10)
 class_type = st.selectbox("Kelas", ["Business","Economy"])
 days_left = st.slider("Sisa Hari Keberangkatan", 1, 60)
 
