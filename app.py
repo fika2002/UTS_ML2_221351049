@@ -43,7 +43,6 @@ input_data = np.array([[airline_dict[airline],
                         city_dict[destination_city],
                         time_dict[departure_time],
                         time_dict[arrival_time],
-                        duration,
                         class_dict[class_type],
                         days_left]])
 
